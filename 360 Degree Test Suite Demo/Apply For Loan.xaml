@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Apply_For_Loan" this:Apply_For_Loan.First_name="John" this:Apply_For_Loan.Last_name="Doe" this:Apply_For_Loan.Email="john.doe@example.com" this:Apply_For_Loan.Age="34" this:Apply_For_Loan.Loan_Amount="5000" this:Apply_For_Loan.Yearly_Income="50000" this:Apply_For_Loan.Expected_Loan_Rate="3.5" this:Apply_For_Loan.email="example1@example.com" this:Apply_For_Loan.loanAmount="5000" this:Apply_For_Loan.loanTerm="3" this:Apply_For_Loan.income="60000" this:Apply_For_Loan.age="35" this:Apply_For_Loan.expectedLoanRate="8" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Apply_For_Loan" this:Apply_For_Loan.First_name="John" this:Apply_For_Loan.Last_name="Doe" this:Apply_For_Loan.Email="john.doe@example.com" this:Apply_For_Loan.Age="34" this:Apply_For_Loan.Loan_Amount="5000" this:Apply_For_Loan.Yearly_Income="50000" this:Apply_For_Loan.Expected_Loan_Rate="3.5" this:Apply_For_Loan.email="example1@example.com" this:Apply_For_Loan.loanAmount="5000" this:Apply_For_Loan.loanTerm="3" this:Apply_For_Loan.income="60000" this:Apply_For_Loan.age="35" this:Apply_For_Loan.expectedLoanRate="8" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="loan_term" Type="InArgument(x:String)" />
     <x:Property Name="loan_rate" Type="InArgument(x:String)" />
@@ -60,6 +60,7 @@
       <x:String>System.ComponentModel</x:String>
       <x:String>UiPath.Platform.ResourceHandling</x:String>
       <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -113,27 +114,41 @@
       <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
       <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Apply_For_Loan" sap:VirtualizedContainerService.HintSize="450,2564" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Apply_For_Loan" sap:VirtualizedContainerService.HintSize="1071,2739" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: UiBank" sap:VirtualizedContainerService.HintSize="450,2521" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="7cd28e00-2d01-4cc5-8e00-15734ca92eed" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: UiBank" sap:VirtualizedContainerService.HintSize="484,2696" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="7cd28e00-2d01-4cc5-8e00-15734ca92eed" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,2272" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,2447" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Products'" sap:VirtualizedContainerService.HintSize="382,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7cd28e00-2d01-4cc5-8e00-15734ca92eed" Version="V4">
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Fatal">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"Hello world"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Products'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7cd28e00-2d01-4cc5-8e00-15734ca92eed" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://uibank.uipath.com/welcome" ContentHash="Kv9HzmNSiEufqYGCqfkTYg" DesignTimeRectangle="1405, 148, 110, 43" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='dropdownMenuLink' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='dropdownMenuLink' tag='A' type='' class='nav-link dropdown-toggle text-dark' aaname='Products' check:innerText='Products' /&gt;" Guid="59ac6ab3-bc88-4c23-9ec6-d154743a8403" InformativeScreenshot="b06b67f1613918dff1556b960b35e8b8.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/ylu_8IOLGEur1Wz0feCc1g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -142,7 +157,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Loans'" sap:VirtualizedContainerService.HintSize="382,189" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7cd28e00-2d01-4cc5-8e00-15734ca92eed" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Loans'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7cd28e00-2d01-4cc5-8e00-15734ca92eed" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://uibank.uipath.com/welcome" ContentHash="Qgz1CoGYl0WGH18DkNB6LQ" DesignTimeRectangle="1406, 222, 158, 32" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-item' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='dropdown-item' tag='A' type='' aaname='Loans' check:innerText='Loans' /&gt;" Guid="f5376ee8-7706-4be6-9bb5-0b35ecf98303" InformativeScreenshot="7c378ff7364e46ebcdb80f9f2a815939.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/nR2_1wedEUy5QFF2cimfbQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
