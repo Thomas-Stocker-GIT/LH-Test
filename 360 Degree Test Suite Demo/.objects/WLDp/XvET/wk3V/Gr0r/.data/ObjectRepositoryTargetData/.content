@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rpoNvKJQS0KV5_anvyHgDQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/loans/result/66308b51eb09e9005cef256a/9/true" DesignTimeRectangle="368, 408, 1161, 48" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'You've been'" FullSelectorArgument="&lt;webctrl tag='H1' isleaf='1' idx='2' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' isleaf='1' type='' class='text-center text-white' check:text='You&amp;apos;ve been approved for a loan with UiBank!' /&gt;" Guid="e99d8c13-c797-4d3a-aca9-cfacdb26b50f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a20d8c73f221483eced41ffa39f2ca27.png" xmlns="">0v3Nx8F-vt06RGCPR64NxLA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

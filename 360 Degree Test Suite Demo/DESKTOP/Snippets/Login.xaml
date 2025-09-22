@@ -1,0 +1,171 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Login" this:Login.user="admin" this:Login.password="Password" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="user" Type="InArgument(x:String)" />
+    <x:Property Name="password" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap:VirtualizedContainerService.HintSize>1057,1236</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="512,1171" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: " sap:VirtualizedContainerService.HintSize="450,1083" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="eb4d0133-1f08-4070-a106-8a48607f32dc" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,769" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="eb4d0133-1f08-4070-a106-8a48607f32dc" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="dZ-XIRbPR0-rTM7dpgd0gg" DesignTimeRectangle="203, 43, 136, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'admin'" FullSelectorArgument="&lt;wnd ctrlname='txt_Username' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='txt_Username' /&gt;" Guid="73e07dae-ca60-4972-bd99-61ddb02295e2" InformativeScreenshot="39c3a7c6ecdb9b86f7feb1ba3d4b339d.png" IsResponsive="True" Reference="ZnP3GeWE7kmww78Vun2Dlw/mb_pRsi2x0moEDBkVieX8A" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Login' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="140, 46, 55, 13" ElementType="Text" FriendlyName="'Username'" FullSelectorArgument="&lt;wnd ctrlname='label1' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='label1' check:text='Username' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">user</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="eb4d0133-1f08-4070-a106-8a48607f32dc" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="-GXs_zuNaEm4mKxgZFoDBA" DesignTimeRectangle="203, 69, 136, 20" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'Password'" FullSelectorArgument="&lt;wnd ctrlname='txt_Password' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='txt_Password' /&gt;" Guid="d7c315b4-b82c-4462-a648-12eaa60d1fd4" InformativeScreenshot="574b6bbe28eb826a8be30883a8901777.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/KXLz-zd1oUemwyLcEhbi4w" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Login' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="142, 72, 53, 13" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;wnd ctrlname='label2' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='label2' check:text='Password' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">password</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="354,182" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="eb4d0133-1f08-4070-a106-8a48607f32dc" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="9WZyXWaY90e7xrDwqPiTTA" DesignTimeRectangle="203, 100, 71, 23" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;wnd ctrlname='btn_Submit' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='btn_Submit' check:text='Submit' /&gt;" Guid="4b9462fe-86e3-47eb-a890-e37c7fbb52a6" InformativeScreenshot="aeb544e1bee956a20251d3363ab42d00.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/E8F_ZQIswU-rheKy6UmZFg" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Login' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" ContentHash="-8v-jQ2gIUuFxCb4nhBPhw" FilePath="C:\\Users\\thomas.stocker\\OneDrive - UiPath\\Documents\\UiPath\\360 Degree Test Suite Demo\\Demo Apps\\UiBankAdmin\\uibankadmin.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANwSURBVFhH7ZdLKLRhFMfHZdyn3MtCImaHpFw2yKWmFBtZkZrcIiVFUiytFJENVjYWooQFG82ClI3rQkQaSm6lXBqGv/7n63mbad7vMy4fm3nqX9OZ87zn95zzPM97XoPT6cRv6ssALy8vunZv9WmA19dXPD4+4u7uTn7r+XijDwNwxQy4t7eHhoYGVFVVYXV1Vf77DMiHADhubm4wOjqKtLQ0GAwGUUJCAvr6+nB6eio+HymLVwBc2fPzM2w2G8rLyxEUFKQFV/L390deXh5mZ2fx8PDgdTb+CcCVcJycnKC7uxvx8fFawMTERDQ3N6OwsFCCK7vJZILVasXOzo5AvJeNvwJw8v39PaamppCdnQ0/Pz8tiNFoxMTEhMAdHR0hPT1d+08pNTUVw8PDuL6+Fj+9GJQHAImpzc1N1NbWIjw83OPhwcHBmJmZkQdfXV0hNzfXw4ciqMViwcrKipRQryxuAHS4uLjAwMAAkpOTdR+qlJWVhZGREUm33p5wVVxcHDo7O3F8fOxRFgGggTu4t7dXahoYGKj7oK+IJSR0R0cHdnd3tWwIAAdTHhsbqzv5O8Vszc3NSUwNgDSHh4dyxEJDQ3Unfoe4J/Lz87G2tuYOQHGTnJ+fo7+/H8XFxTIhKioK9fX1aGtrQ0pKitgyMjLQ3t6OmpoageURrKyslNQWFBSID2ve1NSE1tZWOa608ST19PTg4OBAYqm4bpuQe4FjfHxcJpnNZtkbT09PqKioEFtLS4v48JwzEFe1sLAgtqGhIfHJzMzE5eWlXEglJSVi6+rqEh/XDUi5AVAcY2NjGoDdbofD4fAA2N7e1gDm5+fFNjg4qAHwNPEeUQA8Be8eQ4rDB+AD8AH4AH4dgN2OAjg7O5O7WwHwfufgK1UBLC4uis31Kmajwra9tLRUbF5dxVzp/v6+9AWclJSUhKWlJWxsbKCoqEhs1dXV2NrawvT0tLys2DuwMSEQV0kfgrMLWl9f17qluro6eX8wKx4NCcVBB9KHhYXJpICAAAkSHR2tdT0hISGIiYlBZGSk1oyyEaVNtW+u85ghNY8LWl5ellgKQgCYYq40JyfHrfn8H+L3xOTkpJSHEAZuDNb8J7ohJWaYHzIsuWSgsbFRUhwREfEjYlddVlaG29vbPwDsB3mUuJt/Qmxg2JY5HA68AUFvy9bnYFIWAAAAAElFTkSuQmCC" InformativeScreenshot="f650bd14005cc3e05d49d88c83928ba0.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/tUULMeD-_EuZD6VipnVl8Q" Selector="&lt;wnd app='uibankadmin.exe' ctrlname='Login' /&gt;" Title="Enter your credentials to log in" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

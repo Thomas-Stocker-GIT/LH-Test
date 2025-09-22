@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://staging.uipath.com/testsuite/defaulttenant/testmanager_",
+  "defaultProject": {
+    "id": "98b085b3-9d6d-0000-4106-0b46bd31d7cc",
+    "name": "360° Test Suite Demo",
+    "key": "360"
+  }
+}

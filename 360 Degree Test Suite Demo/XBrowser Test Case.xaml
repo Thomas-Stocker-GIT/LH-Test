@@ -1,0 +1,161 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="XBrowser_Test_Case" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Browser" Type="InArgument(uix:NBrowserType)" />
+  </x:Members>
+  <this:XBrowser_Test_Case.Browser>
+    <InArgument x:TypeArguments="uix:NBrowserType">
+      <CSharpValue x:TypeArguments="uix:NBrowserType" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">NBrowserType.Chrome</CSharpValue>
+    </InArgument>
+  </this:XBrowser_Test_Case.Browser>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap:VirtualizedContainerService.HintSize>1350.4,636.8</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="XBrowser_Test_Case" sap:VirtualizedContainerService.HintSize="764,1004" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NSetRuntimeBrowser DisplayName="Set Runtime Browser" sap:VirtualizedContainerService.HintSize="450,119" sap2010:WorkflowViewState.IdRef="NSetRuntimeBrowser_1" Version="V3">
+      <uix:NSetRuntimeBrowser.BrowserType>
+        <InArgument x:TypeArguments="uix:NBrowserType">
+          <CSharpValue x:TypeArguments="uix:NBrowserType" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">Browser</CSharpValue>
+        </InArgument>
+      </uix:NSetRuntimeBrowser.BrowserType>
+    </uix:NSetRuntimeBrowser>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: UiBank-Welcome" sap:VirtualizedContainerService.HintSize="450,862" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="7cd03bab-1658-473d-8ff8-ea29a6473830" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,622" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click " sap:VirtualizedContainerService.HintSize="382,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7cd03bab-1658-473d-8ff8-ea29a6473830" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://uibank.uipath.com/welcome" CVScreenId="c1ae5348-55b8-4ed7-993d-cf0765262af0" ContentHash="dXsqBwJ2_EOVz3P14mjlYA" CvElementArea="1526, 212, 21, 22" CvTextArea="1447, 217, 81, 16" CvTextArgument="Products" CvType="ArrowButton" DesignTimeRectangle="1440, 204, 110, 43" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='dropdownMenuLink' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='dropdownMenuLink' tag='A' type='' class='nav-link dropdown-toggle text-dark' aaname='Products' check:innerText='Products' /&gt;" Guid="41a889b7-f0da-4aaa-a8e5-5390c24d4e06" InformativeScreenshot="b11dd37b6cbc0a250e8b4e108015f582.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/OMcfRR1YTUCcEnoa5PUgog" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click " sap:VirtualizedContainerService.HintSize="382,189" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7cd03bab-1658-473d-8ff8-ea29a6473830" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://uibank.uipath.com/welcome" ContentHash="MVaZAvFgdEuMPg-bNLw_sQ" DesignTimeRectangle="1441, 278, 158, 32" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-item' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='dropdown-item' tag='A' type='' aaname='Loans' check:innerText='Loans' /&gt;" Guid="50ef0af6-e596-4bec-a704-1ade29b6a378" InformativeScreenshot="a0b03bd61d4e8d6696f90aadeb5c6a62.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/eXgNZzPxSki90uJIGNZWBw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click " sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7cd03bab-1658-473d-8ff8-ea29a6473830" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://uibank.uipath.com/loans" ContentHash="SQCNFCWnz0CFuJUi8blcyg" DesignTimeRectangle="746, 637, 182, 50" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='applyButton' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='applyButton' tag='BUTTON' type='submit' class='btn btn-white btn-xl' aaname='Apply For A Loan' check:innerText='Apply For A Loan' /&gt;" Guid="9e67d0aa-bdec-479a-84b0-06f6bf67de6a" InformativeScreenshot="5b50979df93b95aa26276f1fa9d23d78.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/Id5p7TV6vEiu46nABsnlUw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan Home' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="BuUlpZPoHkScDGenT557Xw" IconBase64="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" InformativeScreenshot="6aecf8becf2ff27bf193dacbbe3153c4.jpg" Reference="ZnP3GeWE7kmww78Vun2Dlw/uwd7XoVcM0u8WL0f4geDlw" Selector="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" Title="UiBank-Welcome" Url="https://uibank.uipath.com/welcome" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

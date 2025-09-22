@@ -1,0 +1,150 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="406,605" sap2010:WorkflowViewState.IdRef="TestCase_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Database</x:String>
+      <x:String>UiPath.Database.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Database</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Terminal</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentUnderstanding.ML.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TestCase" sap:VirtualizedContainerService.HintSize="416,540" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="ui:DatabaseConnection" Name="connection" />
+      <Variable x:TypeArguments="sd:DataTable" Name="result" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:DatabaseConnect DisplayName="Connect to Database" sap:VirtualizedContainerService.HintSize="354,92" sap2010:WorkflowViewState.IdRef="DatabaseConnect_1" ProviderName="Microsoft.Data.SqlClient" ConnectionString="Server=tcp:database-activties-testing-server.database.windows.net,1433;Initial Catalog=database-activties-testing-sql;Persist Security Info=False;User ID=admins;Password=)Q?hCD0lq,GwOfr*DjtQ4HEEh;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;">
+      <ui:DatabaseConnect.DatabaseConnection>
+        <OutArgument x:TypeArguments="ui:DatabaseConnection">
+          <CSharpReference x:TypeArguments="ui:DatabaseConnection" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">connection</CSharpReference>
+        </OutArgument>
+      </ui:DatabaseConnect.DatabaseConnection>
+    </ui:DatabaseConnect>
+    <ui:ExecuteQuery ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Run Query" sap:VirtualizedContainerService.HintSize="354,146" sap2010:WorkflowViewState.IdRef="ExecuteQuery_1" Sql="SELECT * from SampleDatatypes">
+      <ui:ExecuteQuery.DataTable>
+        <OutArgument x:TypeArguments="sd:DataTable">
+          <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">result</CSharpReference>
+        </OutArgument>
+      </ui:ExecuteQuery.DataTable>
+      <ui:ExecuteQuery.ExistingDbConnection>
+        <InArgument x:TypeArguments="ui:DatabaseConnection">
+          <CSharpValue x:TypeArguments="ui:DatabaseConnection" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">connection</CSharpValue>
+        </InArgument>
+      </ui:ExecuteQuery.ExistingDbConnection>
+      <ui:ExecuteQuery.Parameters>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:ExecuteQuery.Parameters>
+    </ui:ExecuteQuery>
+    <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="354,214" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+      <uta:VerifyExpressionWithOperator.FirstExpression>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">result.Rows[0][1].ToString()</CSharpValue>
+        </InArgument>
+      </uta:VerifyExpressionWithOperator.FirstExpression>
+      <uta:VerifyExpressionWithOperator.SecondExpression>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">"10"</CSharpValue>
+        </InArgument>
+      </uta:VerifyExpressionWithOperator.SecondExpression>
+    </uta:VerifyExpressionWithOperator>
+  </Sequence>
+</Activity>

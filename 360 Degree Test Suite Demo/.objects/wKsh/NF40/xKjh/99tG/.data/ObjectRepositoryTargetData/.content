@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7oP9N0p3lES_AfvkkMyGmw" Reference="ZnP3GeWE7kmww78Vun2Dlw/99tGLhbhAEK-bEDXuKNEGQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a23dc228-bbb4-4279-a7dc-8d760d951350" CvTextArea="1115, 516, 76, 23" CvType="Text" DesignTimeRectangle="1115, 516, 76, 23" DesignTimeScaleFactor="1" ElementType="Text" Guid="1f9fb570-c0d3-4afb-b412-62cb0be4d548" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.CvTextArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">font</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.CvTextArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="96e95b8e5f8ae8633d9137c61e8b8c47.png" xmlns="">06yBOzRz7DUOx4gCQk-BIVw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="Algerian" Name="font" />
+    </scg:List>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

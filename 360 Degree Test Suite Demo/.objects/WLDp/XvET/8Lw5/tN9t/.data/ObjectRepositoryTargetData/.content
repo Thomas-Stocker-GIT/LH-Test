@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yw9TideJIUmchEkLyR0bhA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/welcome" DesignTimeRectangle="437, 712, 80, 44" DesignTimeScaleFactor="1" FriendlyName="'Forgot Your Password?'" FullSelectorArgument="&lt;webctrl id='emailHelp' tag='SMALL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='emailHelp' tag='SMALL' type='' class='form-text text-white' aaname='Forgot Your Password?' check:innerText='Forgot Your Password?' /&gt;" Guid="75a20fd0-aab4-4e3a-a1a0-691992133a4c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2917343e7ee4a0f6335c0e274a1a88e5.png" xmlns="">0QKLEQvHFEU2rZaqsmkwiSA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,12 @@
+{
+  "dataVariationFileInfo": [
+    {
+      "filePath": ".variations\\XBrowserTemplateDataVariation.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\LoanApplicants_Sheet1.json",
+      "dataVariationType": "File"
+    }
+  ]
+}

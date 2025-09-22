@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bWHp8ZgIOUyGPd7WfRdhUg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/loans/apply" DesignTimeRectangle="686, 740, 509, 54" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT income'" FullSelectorArgument="&lt;webctrl id='income' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='income' tag='INPUT' type='number' class='form-control uibank-input ng-untouched ng-pristine ng-valid' aaname='Current Yearly Income (Before Taxes)' /&gt;" Guid="a03af509-56be-42dc-b19a-b9e417564ee3" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="686, 721, 209, 19" ElementType="Text" FriendlyName="'Current Yearly'" FullSelectorArgument="&lt;webctrl aaname='Current Yearly Income (Before Taxes)' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Current Yearly Income (Before Taxes)' tag='LABEL' type='' class='uibank-label' check:innerText='Current Yearly Income (Before Taxes)' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6770cad6742d1c100c4caa39dd935ef4.png" xmlns="">0qyy1yXp2hEmZxu0brT8mDw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

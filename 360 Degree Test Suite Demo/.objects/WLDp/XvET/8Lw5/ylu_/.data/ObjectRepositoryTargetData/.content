@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Kv9HzmNSiEufqYGCqfkTYg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/welcome" DesignTimeRectangle="1405, 148, 110, 43" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Products'" FullSelectorArgument="&lt;webctrl id='dropdownMenuLink' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='dropdownMenuLink' tag='A' type='' class='nav-link dropdown-toggle text-dark' aaname='Products' check:innerText='Products' /&gt;" Guid="59ac6ab3-bc88-4c23-9ec6-d154743a8403" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b06b67f1613918dff1556b960b35e8b8.png" xmlns="">00x2jM18QYkWtQ-SHXksEGQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

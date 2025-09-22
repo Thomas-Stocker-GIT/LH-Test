@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dXsqBwJ2_EOVz3P14mjlYA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/welcome" CVScreenId="c1ae5348-55b8-4ed7-993d-cf0765262af0" CvElementArea="1526, 212, 21, 22" CvTextArea="1447, 217, 81, 16" CvTextArgument="Products" CvType="ArrowButton" DesignTimeRectangle="1440, 204, 110, 43" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='dropdownMenuLink' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='dropdownMenuLink' tag='A' type='' class='nav-link dropdown-toggle text-dark' aaname='Products' check:innerText='Products' /&gt;" Guid="41a889b7-f0da-4aaa-a8e5-5390c24d4e06" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b11dd37b6cbc0a250e8b4e108015f582.png" xmlns="">0k_rqjt8UOU2cXFAWSfrdCA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

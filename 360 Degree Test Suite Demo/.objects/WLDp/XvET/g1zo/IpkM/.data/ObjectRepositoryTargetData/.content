@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wPKZMDcfcE2JLqIMY2x06g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/loans/apply" DesignTimeRectangle="686, 457, 509, 54" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT email'" FullSelectorArgument="&lt;webctrl id='email' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='email' class='form-control uibank-input ng-untouched ng-pristine ng-valid' aaname='' /&gt;" Guid="ccbfc9f4-ed80-4ad4-870a-d35d4b5e32b9" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="686, 438, 152, 19" ElementType="Text" FriendlyName="'Email Address'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='uibank-label' aaname='Email Address of Requester' check:innerText='Email Address of Requester' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="adefa92ec92703a4a607d3c0fdf2545a.png" xmlns="">0qaPho14XjUym0nwLHEJPBw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

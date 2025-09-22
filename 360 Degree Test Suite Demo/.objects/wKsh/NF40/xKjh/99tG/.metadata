@@ -1,0 +1,16 @@
+﻿{
+  "Name": "SelectionBox",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "99tGLhbhAEK-bEDXuKNEGQ",
+  "Reference": "ZnP3GeWE7kmww78Vun2Dlw/99tGLhbhAEK-bEDXuKNEGQ",
+  "ParentRef": "ZnP3GeWE7kmww78Vun2Dlw/xKjhHHlmSkS19-HU4-xr6A",
+  "Created": "2024-10-11T14:21:18.2305812Z",
+  "Updated": "2024-10-11T14:22:10.394746Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

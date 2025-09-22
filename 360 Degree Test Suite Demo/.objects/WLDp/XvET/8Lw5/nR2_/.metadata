@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Loans",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "nR2_1wedEUy5QFF2cimfbQ",
+  "Reference": "ZnP3GeWE7kmww78Vun2Dlw/nR2_1wedEUy5QFF2cimfbQ",
+  "ParentRef": "ZnP3GeWE7kmww78Vun2Dlw/8Lw5m2-tLEG-qT1E9I0-Vw",
+  "Created": "2024-04-30T11:12:25.5394049Z",
+  "Updated": "2024-04-30T11:12:25.5394049Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

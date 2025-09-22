@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sT9u7skQsEavS2ORuvjqUg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/welcome" DesignTimeRectangle="552, 640, 101, 50" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Sign In'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn btn-white col-md-12' aaname='Sign In' check:innerText='Sign In' /&gt;" Guid="baa44143-edf4-4ddb-980f-f2ec1a2861c8" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c1d047bab3dd6275a9db59d6a749d7c4.png" xmlns="">0l1rNgtugjEagenBr5wFXbg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

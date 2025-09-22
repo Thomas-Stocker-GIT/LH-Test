@@ -1,0 +1,246 @@
+{
+  "name": "360 Degree Test Suite Demo",
+  "projectId": "50a65387-f882-4269-8895-eaf793e56696",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Coded.Automation.Library": "[1.0.3]",
+    "UiPath.Database.Activities": "[1.9.0-alpha.5693499]",
+    "UiPath.DocumentUnderstanding.Activities": "2.10.0-alpha.5817821",
+    "UiPath.Excel.Activities": "[2.24.0-preview]",
+    "UiPath.PDF.Activities": "[3.20.0-alpha.5824769]",
+    "UiPath.System.Activities": "[24.11.0-preview]",
+    "UiPath.Terminal.Activities": "[2.8.0-alpha.5807471]",
+    "UiPath.Testing.Activities": "[24.10.242-dev.687]",
+    "UiPath.UIAutomation.Activities": "24.11.2-beta.6669349"
+  },
+  "webServices": [
+    {
+      "namespace": "SwaggerPetstore",
+      "serviceDocument": "Services\\SwaggerPetstore.json",
+      "webDocumentUri": "https://petstore.swagger.io/v2/swagger.json",
+      "uniqueReference": "IEZ0XBlT6P7Cynw3K52dAFuUIHS+JUcg+8RE/sURfUY="
+    }
+  ],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "namespace": "_360_Degree_Test_Suite_Demo"
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.0.0",
+  "projectVersion": "1.0.181386789",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "488635b2-321d-4f7d-8052-947842c418dc",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "DESKTOP\\Update User.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e691e642-d8ba-45fc-974d-e8a6d5033bbf",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Workspace\\TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4c26a5dd-4f4c-4c3b-9982-dfdb51a1c64e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BATCH\\Verify Job Output in CSV file.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d4dba6e6-bada-4a10-9d8d-1b3b4bfd509c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "BATCH\\Verify Job Output in PDF file.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ccd0ba79-ec13-427f-91ef-0f03e80010ee",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TERMINAL\\Submit Job.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "07a5907d-ed9e-4965-ade5-8fb29c9d25f1",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TERMINAL\\Verify Stream File Content.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2333d696-3b2f-46cf-b637-4d33780e7dae",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "DATABASE\\Query Database.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a1b3652f-7818-4e6e-b29c-8661ae4ed22c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "API\\Verify Pet Name.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "010c1467-95d3-42b2-9519-bd6737865483",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TERMINAL\\Verify Stream File Content - Copy (1).xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "efefe010-ed17-43b8-bc2e-e55fcb532f78",
+        "testCaseType": "TestCase",
+        "fileName": "CODED TESTCASES\\Coded_ApplyForLoan.cs"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ce84f091-2121-4d42-a3a3-158f1403cdd3",
+        "testCaseType": "TestCase",
+        "fileName": "CODED TESTCASES\\CodedTestCase_ApplyForLoan_NativeSelectors.cs"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "089f1273-91b3-4440-a712-ef5703ef1e14",
+        "testCaseType": "TestCase",
+        "fileName": "CODED TESTCASES\\Demo.cs"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "738534ed-eac5-4cef-bad2-680592826d79",
+        "testCaseType": "TestCase",
+        "fileName": "CODED TESTCASES\\Autopilot.cs"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7f6c9fb9-cef9-4238-9534-4e16ff8abb89",
+        "testCaseType": "TestCase",
+        "fileName": "CODED TESTCASES\\Coded Data Driven.cs"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "21ab8c51-7890-48f4-94f8-2fb70a5d39c1",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "42eacee7-d345-4b07-ad62-1b9d0a52b887",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase1.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e0c48a89-c2fa-49aa-8f31-e18fa8ba4057",
+        "dataVariationFilePath": ".variations\\LoanApplicants_Sheet1.json",
+        "testCaseType": "TestCase",
+        "fileName": "Apply For Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b359d158-e675-4743-9a9d-92fae5da269b",
+        "dataVariationFilePath": ".variations\\XBrowserTemplateDataVariation.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "XBrowser Test Case.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "79c8f974-4ede-4266-ae15-458ddc0f2923",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase2.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d99d1d20-85b4-497e-aff6-5ce3f6a42c02",
+        "testCaseType": "TestCase",
+        "fileName": "CodedTestCase.cs"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2503898b-6f1a-40ef-96c4-7c33d02da666",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase3.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fae720ff-d643-4452-8b69-491930705577",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Semantic Verification.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ec7cfc20-94fc-4039-8f24-680a23270f95",
+        "testCaseType": "TestCase",
+        "fileName": "CodedTestCase1.cs"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "CODED TESTCASES\\Selectors\\Click Options.cs",
+      "uniqueId": "76050919-2315-47f9-9597-8589c6a2f301",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "CODED TESTCASES\\Selectors\\Type_Options.cs",
+      "uniqueId": "ea6c0c21-11c3-43e7-b470-08e78b12e957",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Workflow.cs",
+      "uniqueId": "e89dbe57-437d-468c-8377-7acee9f6c878",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

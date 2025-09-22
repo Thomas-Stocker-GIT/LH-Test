@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="MNC5bDznUEiLHZcyF_QLHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" FilePath="C:\\Program Files\\Microsoft Office\\root\\Office16\\powerpnt.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHLSURBVFhH7dc9S8NAGAfwfoRMOrQ4KNT6hroqFhWLUByC3yAILjpkdTKjuLjZQSGTgouhOjkUFARxqYO6uAiC4KBkLE7n89QkJpe79F5aBPHgt1wvz/PPJW3S3P+QHR+bywawgQd8QBDZ2wj5wAM2MILD9Ac0wcZu2JAWNGdxgV4QaGCC6GxZqKY03BUzKCc3oLhDN2OhGvI4QVmxAYWFmiNGMx6xEI/WvAmIiKe1BVajLD+X47pcuANExUV5gOxXJtohGE2y4D3xfWOyCsvYKY+oBEDubwdARirAZ6vF9HJcS6wLaQawuQHeby/b/IdmNPd8sJtYizQDeNwA8bm3xnkUKj6PNAP4QgFw+3sUgHAD4Haj17OjaI51H/QsAA3P/qY6mliLtibzpFEdI/erU0o67gBqWpXEmrieBaDneTQDiN2EWTQDiH0Ns2gGSP8QydIMkP4plqURIHoYKT+O6zN51QA+yH5PtIp9JiBZ1kv9ZHu6oBJA7P3wcG7Iqc0Okk6uVsZZTXjk3gtPl4adk8Ui4alXSqwmPHLNwwEHmgCvG6uoCDxW7bU8HFDAAG5QUAYe071/SFgM2MADrF3BOfwM13Sv8R8dudwXSnkHXbLxzzUAAAAASUVORK5CYII=" Selector="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" Title="Presentation1 - PowerPoint">
+      <imageRef attrName="InformativeScreenshot" originalValue="a13c6ac2b0ab11957a5b8043aa0de6cd.png" xmlns="">08FLsHYlSGEm0WVH_-kaNJg</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

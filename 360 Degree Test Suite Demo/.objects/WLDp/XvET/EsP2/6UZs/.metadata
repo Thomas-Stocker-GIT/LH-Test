@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Apply For A Loan",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "6UZssoLwe0O5WzxBXYrzWA",
+  "Reference": "ZnP3GeWE7kmww78Vun2Dlw/6UZssoLwe0O5WzxBXYrzWA",
+  "ParentRef": "ZnP3GeWE7kmww78Vun2Dlw/EsP28pCeNUWy0mBNgOUCwg",
+  "Created": "2024-04-30T06:08:30.8127844Z",
+  "Updated": "2024-04-30T06:08:30.8127844Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

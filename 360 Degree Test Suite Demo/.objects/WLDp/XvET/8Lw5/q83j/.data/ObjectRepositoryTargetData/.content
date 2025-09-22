@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Nnx3qTDHz0KD9ovNyjikNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/welcome" DesignTimeRectangle="893, 751, 159, 50" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Get Started →'" FullSelectorArgument="&lt;webctrl aaname='Get Started →' tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Get Started →' tag='BUTTON' type='submit' class='btn btn-black btn-xl get-started-button' check:innerText='Get Started →' /&gt;" Guid="c5387ff8-4267-49f7-9d17-17bcab16e774" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="916, 764, 113, 23" ElementType="Text" FriendlyName="'Get Started →'" FullSelectorArgument="&lt;webctrl aaname='Get Started →' tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Get Started →' tag='STRONG' type='' class='' check:innerText='Get Started →' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="25c3359b59cbc937106bfbc6f35c52d5.png" xmlns="">0ee-3H_GfeESc7ULuuaEIDQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

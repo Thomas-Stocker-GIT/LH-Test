@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gbz_cD5qbkOoj2mflDvyHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/loans/apply" DesignTimeRectangle="686, 646, 509, 54" DesignTimeScaleFactor="1" ElementType="DropDown" FriendlyName="'Select your loan term'" FullSelectorArgument="&lt;webctrl id='term' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='term' tag='SELECT' type='number' class='form-control uibank-input select-color ng-untouched ng-pristine ng-invalid' aaname='' /&gt;" Guid="792a79e7-4709-42de-9e3a-adfe01952d92" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="686, 627, 58, 19" ElementType="Text" FriendlyName="'Loan Term'" FullSelectorArgument="&lt;webctrl aaname='Loan Term' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Loan Term' tag='LABEL' type='' class='uibank-label' check:innerText='Loan Term' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0a3b5b832bd07e5036973248a86897c4.png" xmlns="">0F8rAyvGtOEumWAELRGWt9g</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

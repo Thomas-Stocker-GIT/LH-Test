@@ -1,0 +1,308 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1057,873" sap2010:WorkflowViewState.IdRef="TestCase_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Update User" sap:VirtualizedContainerService.HintSize="512,808" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="ExtractDataTable">
+        <Variable.Default>
+          <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">new System.Data.DataTable();</CSharpValue>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: " sap:VirtualizedContainerService.HintSize="450,700" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" ScopeGuid="0274b180-44d0-4850-9f88-56c2c5870bc3" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,377" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,250" sap2010:WorkflowViewState.IdRef="NTypeInto_22" ScopeIdentifier="0274b180-44d0-4850-9f88-56c2c5870bc3" Text="admin" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="dZ-XIRbPR0-rTM7dpgd0gg" DesignTimeRectangle="203, 43, 136, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'admin'" FullSelectorArgument="&lt;wnd ctrlname='txt_Username' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='txt_Username' /&gt;" Guid="73e07dae-ca60-4972-bd99-61ddb02295e2" InformativeScreenshot="39c3a7c6ecdb9b86f7feb1ba3d4b339d.png" IsResponsive="True" Reference="ZnP3GeWE7kmww78Vun2Dlw/mb_pRsi2x0moEDBkVieX8A" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Login' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="140, 46, 55, 13" ElementType="Text" FriendlyName="'Username'" FullSelectorArgument="&lt;wnd ctrlname='label1' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='label1' check:text='Username' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap2010:WorkflowViewState.IdRef="NTypeInto_23" IsPassword="True" ScopeIdentifier="0274b180-44d0-4850-9f88-56c2c5870bc3" Text="Password" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="-GXs_zuNaEm4mKxgZFoDBA" DesignTimeRectangle="203, 69, 136, 20" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'Password'" FullSelectorArgument="&lt;wnd ctrlname='txt_Password' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='txt_Password' /&gt;" Guid="d7c315b4-b82c-4462-a648-12eaa60d1fd4" InformativeScreenshot="574b6bbe28eb826a8be30883a8901777.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/KXLz-zd1oUemwyLcEhbi4w" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Login' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="142, 72, 53, 13" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;wnd ctrlname='label2' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='label2' check:text='Password' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0274b180-44d0-4850-9f88-56c2c5870bc3" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="9WZyXWaY90e7xrDwqPiTTA" DesignTimeRectangle="203, 100, 71, 23" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;wnd ctrlname='btn_Submit' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='btn_Submit' check:text='Submit' /&gt;" Guid="4b9462fe-86e3-47eb-a890-e37c7fbb52a6" InformativeScreenshot="aeb544e1bee956a20251d3363ab42d00.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/E8F_ZQIswU-rheKy6UmZFg" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Login' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" ContentHash="-8v-jQ2gIUuFxCb4nhBPhw" FilePath="C:\\Users\\thomas.stocker\\OneDrive - UiPath\\Documents\\UiPath\\360 Degree Test Suite Demo\\Demo Apps\\UiBankAdmin\\uibankadmin.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANwSURBVFhH7ZdLKLRhFMfHZdyn3MtCImaHpFw2yKWmFBtZkZrcIiVFUiytFJENVjYWooQFG82ClI3rQkQaSm6lXBqGv/7n63mbad7vMy4fm3nqX9OZ87zn95zzPM97XoPT6cRv6ssALy8vunZv9WmA19dXPD4+4u7uTn7r+XijDwNwxQy4t7eHhoYGVFVVYXV1Vf77DMiHADhubm4wOjqKtLQ0GAwGUUJCAvr6+nB6eio+HymLVwBc2fPzM2w2G8rLyxEUFKQFV/L390deXh5mZ2fx8PDgdTb+CcCVcJycnKC7uxvx8fFawMTERDQ3N6OwsFCCK7vJZILVasXOzo5AvJeNvwJw8v39PaamppCdnQ0/Pz8tiNFoxMTEhMAdHR0hPT1d+08pNTUVw8PDuL6+Fj+9GJQHAImpzc1N1NbWIjw83OPhwcHBmJmZkQdfXV0hNzfXw4ciqMViwcrKipRQryxuAHS4uLjAwMAAkpOTdR+qlJWVhZGREUm33p5wVVxcHDo7O3F8fOxRFgGggTu4t7dXahoYGKj7oK+IJSR0R0cHdnd3tWwIAAdTHhsbqzv5O8Vszc3NSUwNgDSHh4dyxEJDQ3Unfoe4J/Lz87G2tuYOQHGTnJ+fo7+/H8XFxTIhKioK9fX1aGtrQ0pKitgyMjLQ3t6OmpoageURrKyslNQWFBSID2ve1NSE1tZWOa608ST19PTg4OBAYqm4bpuQe4FjfHxcJpnNZtkbT09PqKioEFtLS4v48JwzEFe1sLAgtqGhIfHJzMzE5eWlXEglJSVi6+rqEh/XDUi5AVAcY2NjGoDdbofD4fAA2N7e1gDm5+fFNjg4qAHwNPEeUQA8Be8eQ4rDB+AD8AH4AH4dgN2OAjg7O5O7WwHwfufgK1UBLC4uis31Kmajwra9tLRUbF5dxVzp/v6+9AWclJSUhKWlJWxsbKCoqEhs1dXV2NrawvT0tLys2DuwMSEQV0kfgrMLWl9f17qluro6eX8wKx4NCcVBB9KHhYXJpICAAAkSHR2tdT0hISGIiYlBZGSk1oyyEaVNtW+u85ghNY8LWl5ellgKQgCYYq40JyfHrfn8H+L3xOTkpJSHEAZuDNb8J7ohJWaYHzIsuWSgsbFRUhwREfEjYlddVlaG29vbPwDsB3mUuJt/Qmxg2JY5HA68AUFvy9bnYFIWAAAAAElFTkSuQmCC" InformativeScreenshot="f650bd14005cc3e05d49d88c83928ba0.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/tUULMeD-_EuZD6VipnVl8Q" Selector="&lt;wnd app='uibankadmin.exe' ctrlname='Login' /&gt;" Title="Enter your credentials to log in" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: " sap2010:WorkflowViewState.IdRef="NApplicationCard_6" ScopeGuid="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap2010:WorkflowViewState.IdRef="NTypeInto_24" ScopeIdentifier="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Text="ThomasStocker" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="6LmYuHJSv0u_QPHzXxylFg" DesignTimeRectangle="220, 175, 150, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'WindowsForms10.EDIT.app…'" FullSelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='txtUsername' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='txtUsername' /&gt;" Guid="21681330-4162-4ebe-87a3-0c0012322c4b" InformativeScreenshot="3cee92f059eacd5dcd3c391431bdf721.png" IsResponsive="True" Reference="ZnP3GeWE7kmww78Vun2Dlw/PQziHu48XEazvcCO69tSKg" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="159, 178, 55, 13" ElementType="Text" FriendlyName="'Username'" FullSelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='label1' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='label1' check:text='Username' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '&amp;Filter / Refresh'" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="JKQ-XDc2AkaOx278rNnp6A" DesignTimeRectangle="220, 291, 110, 23" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'&amp;Filter / Refresh'" FullSelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelButtons' /&gt;&lt;wnd ctrlname='btnFilter' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelButtons' /&gt;&lt;wnd ctrlname='btnFilter' check:text='&amp;amp;Filter / Refresh' /&gt;" Guid="8c3593dd-e180-4c90-9ebe-178d0cbe900b" InformativeScreenshot="1d4c0892cacea077334d508f446f8282.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/P-3I5nxycE-_qaLhDDsPiA" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ThomasStocker'" sap2010:WorkflowViewState.IdRef="NClick_27" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="D9IN1X6p-EGICfdmMXF0xQ" DesignTimeRectangle="141, 379, 80, 22" DesignTimeScaleFactor="1" ElementType="Cell" FriendlyName="'ThomasStocker'" FullSelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='gridUsers' /&gt;&lt;ctrl name='DataGridView' role='table' /&gt;&lt;ctrl name='Row 0' role='row' /&gt;&lt;ctrl name='Username Row 0' role='cell' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='gridUsers' /&gt;&lt;ctrl name='DataGridView' role='table' /&gt;&lt;ctrl name='Row 0' role='row' /&gt;&lt;ctrl name='Username Row 0' role='cell' automationid='' /&gt;" Guid="d97ef690-3eb2-4b9d-9810-feb8a7dc1fcd" InformativeScreenshot="2f619762371798b20ad33b47bad7a621.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/1LvYuNOzkUi8ZVDz9xX1XA" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" sap2010:WorkflowViewState.IdRef="NTypeInto_25" ScopeIdentifier="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Text="thomas.stocker@uipath.com" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="1Ijt70OupkeofHYwuYjHJg" DesignTimeRectangle="445, 175, 150, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Username'" FullSelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='txtEmail' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='txtEmail' /&gt;" Guid="3dfa242e-2a0b-454f-89cc-7409e0d729a6" InformativeScreenshot="a120168a6af53332e9565801f3d1fb73.png" IsResponsive="True" Reference="ZnP3GeWE7kmww78Vun2Dlw/i2gFkyZ0sUmUJpIPFOb6xQ" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="407, 178, 32, 13" ElementType="Text" FriendlyName="'Email'" FullSelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='label2' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelUser' /&gt;&lt;wnd ctrlname='label2' check:text='Email' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'DOB'" EmptyFieldMode="SingleLine" sap2010:WorkflowViewState.IdRef="NTypeInto_26" ScopeIdentifier="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Text="14FEB1980" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="gWn_o2Ta_k-pT2SdRf7oNw" DesignTimeRectangle="699, 196, 75, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'__ ___ ____'" FullSelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelCustomer' /&gt;&lt;wnd ctrlname='txtDOB' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelCustomer' /&gt;&lt;wnd ctrlname='txtDOB' /&gt;" Guid="96ed705e-13ee-4a95-9af4-a7fe1e81e713" InformativeScreenshot="150529ff3b5f47997e8a6d471c24be7d.png" IsResponsive="True" Reference="ZnP3GeWE7kmww78Vun2Dlw/zTsCA_02uEuvSk2Z23IycA" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="604, 201, 30, 13" ElementType="Text" FriendlyName="'DOB'" FullSelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelCustomer' /&gt;&lt;wnd ctrlname='label8' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelCustomer' /&gt;&lt;wnd ctrlname='label8' check:text='DOB' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Addresses'" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="CB9gXdk_CkiS2qHdbyqX8w" DesignTimeRectangle="699, 248, 75, 23" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Addresses'" FullSelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelCustomer' /&gt;&lt;wnd ctrlname='btnAddresses' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelCustomer' /&gt;&lt;wnd ctrlname='btnAddresses' check:text='Addresses' /&gt;" Guid="ae096db1-93bc-4b61-9692-d5849b75c8fa" InformativeScreenshot="22cab33bb5fbade1bc22596f9bdcea66.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/qgaffR9nkk-kbQsx_w7TKg" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sonnberg 80'" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="Vmz1pxMzY0KpAJsK_4PmKA" DesignTimeRectangle="22, 196, 100, 22" DesignTimeScaleFactor="1" ElementType="Cell" FriendlyName="'Sonnberg 80'" FullSelectorArgument="&lt;wnd ctrlname='gridAddresses' /&gt;&lt;ctrl name='DataGridView' role='table' /&gt;&lt;ctrl name='Row 0' role='row' /&gt;&lt;ctrl name='Line 1 Row 0' role='cell' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='gridAddresses' /&gt;&lt;ctrl name='DataGridView' role='table' /&gt;&lt;ctrl name='Row 0' role='row' /&gt;&lt;ctrl name='Line 1 Row 0' role='cell' automationid='' /&gt;" Guid="312de9cf-b2c5-4733-aaae-a7ed991d4438" InformativeScreenshot="738486da1082112db4c544245ebca0da.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/DZdKxNt2x0iAItBPnOzZSA" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='FormAddresses' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Line 1'" EmptyFieldMode="SingleLine" sap2010:WorkflowViewState.IdRef="NTypeInto_27" ScopeIdentifier="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Text="Sonnberg 80 A" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="8SHpTts3Okmp_EnYTyp__Q" DesignTimeRectangle="92, 44, 187, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'WindowsForms10.EDIT.app…'" FullSelectorArgument="&lt;wnd ctrlname='txtAddress1' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='txtAddress1' /&gt;" Guid="d26a2c0b-9201-4003-84e8-ab99467cad5a" InformativeScreenshot="d97ad5a292f9937bab36b09bc49d4e81.png" IsResponsive="True" Reference="ZnP3GeWE7kmww78Vun2Dlw/rf92s34j8kON67aQJlNb3A" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='FormAddresses' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="50, 47, 36, 13" ElementType="Text" FriendlyName="'Line 1'" FullSelectorArgument="&lt;wnd ctrlname='label1' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='label1' check:text='Line 1' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Update'" sap2010:WorkflowViewState.IdRef="NClick_30" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="NbpgbmJckUKlzvZ1DzEk6Q" DesignTimeRectangle="579, 104, 75, 23" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Update'" FullSelectorArgument="&lt;wnd ctrlname='btnUpdate' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='btnUpdate' check:text='Update' /&gt;" Guid="4ac09f59-ac23-4f66-b3dc-847b2605c407" InformativeScreenshot="d5bcedd856b8020f07ddb64c5685322f.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/zNZfQJFAvU6vYA4mVCBsOw" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='FormAddresses' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap2010:WorkflowViewState.IdRef="NClick_31" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="amw7dbDMM02qTn4CPud9gg" DesignTimeRectangle="40, 99, 75, 23" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='2' title='OK' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='2' title='OK' check:text='unchecked' /&gt;" Guid="b55b3101-0987-4e5f-aef2-8e276c94d45f" InformativeScreenshot="9074c2b8e61cad18145c71fecfee6379.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/xAoWfxt9f0OEO6FyvUSXAA" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' cls='#32770' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" sap2010:WorkflowViewState.IdRef="NClick_32" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="7kxUzlQ4r0isAuJrC-UjYg" DesignTimeRectangle="814, 7, 21, 21" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Close'" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="20f64478-3f7e-4d71-b27c-3f7175f6ba9c" InformativeScreenshot="129feca3862c028e58cf4f0da262b373.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/-sOgjJ-U-0KQdBwJ2zfF2Q" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='FormAddresses' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NSelectItem DisplayName="Select Item 'Residence Status'" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="Owner" ScopeIdentifier="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Version="V3">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="4">
+                  <x:String>Owner</x:String>
+                  <x:String>Renting</x:String>
+                  <x:String>Hotel</x:String>
+                  <x:String>Homeless</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable ContentHash="4shkep_VAEm30PlXouTFaA" DesignTimeRectangle="893, 250, 122, 21" DesignTimeScaleFactor="1" ElementType="DropDown" FriendlyName="'Open Owner'" FullSelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelCustomer' /&gt;&lt;wnd ctrlname='choiceResidence' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelCustomer' /&gt;&lt;wnd ctrlname='choiceResidence' /&gt;" Guid="c21fb19a-2f3e-48f3-9990-807a059b5629" InformativeScreenshot="830bd31404e0775ec7a28661d3dc175f.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/mDdPNivL8UGMUvb5JLMNIA" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="790, 253, 91, 13" ElementType="Text" FriendlyName="'Residence Status'" FullSelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelCustomer' /&gt;&lt;wnd ctrlname='label12' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelCustomer' /&gt;&lt;wnd ctrlname='label12' check:text='Residence Status' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Update Details'" sap2010:WorkflowViewState.IdRef="NClick_33" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="eHVIIh32k0CV3MRxgzHIbQ" DesignTimeRectangle="715, 291, 98, 23" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Update Details'" FullSelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelButtons' /&gt;&lt;wnd ctrlname='btnUpdateDetails' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='MainPanel' /&gt;&lt;wnd ctrlname='UC_Users' /&gt;&lt;wnd ctrlname='gbUsers' /&gt;&lt;wnd ctrlname='panelButtons' /&gt;&lt;wnd ctrlname='btnUpdateDetails' check:text='Update Details' /&gt;" Guid="dee22926-b22a-4fa4-881a-80a911fabbe6" InformativeScreenshot="c8c0e5f9d78d832c25939a580b84350e.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/D7Rgw3ps8Uuczf5I_jgrlg" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" sap2010:WorkflowViewState.IdRef="NClick_34" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d0e2f3a4-2793-4ee7-98e2-50592ccaec23" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="gXMja6_38USyFoPTvnuaFQ" DesignTimeRectangle="1252, 1, 47, 30" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Close'" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="b4b87d85-2a2c-4136-86d5-b17fe1fa9a51" InformativeScreenshot="648d2fb20435ec19e8a9a44ee9fe93ba.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/YuSV3ORcikSLkfNczuseYg" ScopeSelectorArgument="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" ContentHash="hnQNvHM-iUaf4e5g9Fp29A" FilePath="C:\\Users\\thomas.stocker\\OneDrive - UiPath\\Documents\\UiPath\\360 Degree Test Suite Demo\\Demo Apps\\UiBankAdmin\\uibankadmin.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANwSURBVFhH7ZdLKLRhFMfHZdyn3MtCImaHpFw2yKWmFBtZkZrcIiVFUiytFJENVjYWooQFG82ClI3rQkQaSm6lXBqGv/7n63mbad7vMy4fm3nqX9OZ87zn95zzPM97XoPT6cRv6ssALy8vunZv9WmA19dXPD4+4u7uTn7r+XijDwNwxQy4t7eHhoYGVFVVYXV1Vf77DMiHADhubm4wOjqKtLQ0GAwGUUJCAvr6+nB6eio+HymLVwBc2fPzM2w2G8rLyxEUFKQFV/L390deXh5mZ2fx8PDgdTb+CcCVcJycnKC7uxvx8fFawMTERDQ3N6OwsFCCK7vJZILVasXOzo5AvJeNvwJw8v39PaamppCdnQ0/Pz8tiNFoxMTEhMAdHR0hPT1d+08pNTUVw8PDuL6+Fj+9GJQHAImpzc1N1NbWIjw83OPhwcHBmJmZkQdfXV0hNzfXw4ciqMViwcrKipRQryxuAHS4uLjAwMAAkpOTdR+qlJWVhZGREUm33p5wVVxcHDo7O3F8fOxRFgGggTu4t7dXahoYGKj7oK+IJSR0R0cHdnd3tWwIAAdTHhsbqzv5O8Vszc3NSUwNgDSHh4dyxEJDQ3Unfoe4J/Lz87G2tuYOQHGTnJ+fo7+/H8XFxTIhKioK9fX1aGtrQ0pKitgyMjLQ3t6OmpoageURrKyslNQWFBSID2ve1NSE1tZWOa608ST19PTg4OBAYqm4bpuQe4FjfHxcJpnNZtkbT09PqKioEFtLS4v48JwzEFe1sLAgtqGhIfHJzMzE5eWlXEglJSVi6+rqEh/XDUi5AVAcY2NjGoDdbofD4fAA2N7e1gDm5+fFNjg4qAHwNPEeUQA8Be8eQ4rDB+AD8AH4AH4dgN2OAjg7O5O7WwHwfufgK1UBLC4uis31Kmajwra9tLRUbF5dxVzp/v6+9AWclJSUhKWlJWxsbKCoqEhs1dXV2NrawvT0tLys2DuwMSEQV0kfgrMLWl9f17qluro6eX8wKx4NCcVBB9KHhYXJpICAAAkSHR2tdT0hISGIiYlBZGSk1oyyEaVNtW+u85ghNY8LWl5ellgKQgCYYq40JyfHrfn8H+L3xOTkpJSHEAZuDNb8J7ohJWaYHzIsuWSgsbFRUhwREfEjYlddVlaG29vbPwDsB3mUuJt/Qmxg2JY5HA68AUFvy9bnYFIWAAAAAElFTkSuQmCC" InformativeScreenshot="820101a02b3b94b876b524ff74406024.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/GswPL7o7AUWyJ3NanaKE5w" Selector="&lt;wnd app='uibankadmin.exe' ctrlname='Form1' /&gt;" Title="UiBank Admin" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

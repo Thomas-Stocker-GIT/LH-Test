@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nnC89vAzV0yhxAmdwMI4Cw" Reference="ZnP3GeWE7kmww78Vun2Dlw/eXgNZzPxSki90uJIGNZWBw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/welcome" DesignTimeRectangle="1441, 278, 158, 32" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='dropdown-item' tag='A' /&gt;" Guid="50ef0af6-e596-4bec-a704-1ade29b6a378" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.FuzzySelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">string.Format("&lt;webctrl class='dropdown-item' tag='A' type='' aaname='{0}' check:innerText='{0}' /&gt;", aaname)</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FuzzySelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="894059d3431a027d75b9b39c2d5e835e.png" xmlns="">0sQz-9gLWsk6wgM2_qSDhiA</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="Loans" Name="aaname" />
+    </scg:List>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

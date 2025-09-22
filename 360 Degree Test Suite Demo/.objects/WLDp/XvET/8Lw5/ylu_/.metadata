@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Products",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ylu_8IOLGEur1Wz0feCc1g",
+  "Reference": "ZnP3GeWE7kmww78Vun2Dlw/ylu_8IOLGEur1Wz0feCc1g",
+  "ParentRef": "ZnP3GeWE7kmww78Vun2Dlw/8Lw5m2-tLEG-qT1E9I0-Vw",
+  "Created": "2024-04-30T06:06:33.7570115Z",
+  "Updated": "2024-04-30T06:06:33.7570115Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

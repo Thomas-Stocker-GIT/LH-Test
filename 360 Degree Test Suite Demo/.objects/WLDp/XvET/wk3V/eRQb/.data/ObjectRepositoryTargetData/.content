@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Gp6_OTEOt0a1fLKN2RF1Eg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/loans/result/66308b51eb09e9005cef256a/9/true" DesignTimeRectangle="905, 493, 15, 33" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'9'" FullSelectorArgument="&lt;webctrl id='rateValue' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='rateValue' tag='SPAN' type='' class='' aaname='9' check:innerText='9' /&gt;" Guid="32051c2d-ad3a-48b6-b527-76a705746d46" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b96c60edb2e54300f12a3569c86d83a2.png" xmlns="">01MTdeZrTO02VAzE5yEVudg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

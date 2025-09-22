@@ -1,0 +1,128 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="Sequence" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib"
+ xmlns:uix="http://schemas.uipath.com/workflow/activities/uix"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentUnderstanding.ML.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Terminal</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Use Application: Zoom Meeting" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="d3111084-d9d3-48c6-a1c7-b1636c0ba40e" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d3111084-d9d3-48c6-a1c7-b1636c0ba40e" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="8, 56, 1920, 925" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;wnd cls='ATL*FFF96B7BF60' title='VideoPortContainer' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ATL*FFF96B7BF60' title='VideoPortContainer' check:text='VideoPortContainer' /&gt;" Guid="3b887f54-9890-4042-a539-8df387305161" InformativeScreenshot="96255de46c8ac4495202dc11c2f81d6f.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" ContentHash="xigUMyVlKUK1KQD9AYQbag" FilePath="C:\\Users\\thomas.stocker\\AppData\\Roaming\\Zoom\\bin\\zoom.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATySURBVFhHnZdvbBN1GMfvnXdXjRpCTEAjxmDQYFSIbkajDXHdvw4rdUyr4lCDBKKSxYHOyGoywE2T8oLgO18AbwwxwxjfYUBQWTCmgBgiEg4HZCiya9d23dbuHn/P78/d73fttZUneZLlt949n36f7/NcT2skln9QDD+6bTq1cqBwaMVAId28PW899UkenhnK0Vy1cwpadmWtyHAm3T5ij0ZTmcFoyg7zy28ulq6/csfdm8qDD/TN2sv6ZmD51iI8sq0IBABWfjQNj39cgObBPAgQhMB87tMpaB3JQsfnGehK2RbCxFL2En7bxmLha5OxezaVJu97Zw7uf3cOlm6ZA4R46P3GQRBCBulK/dvLb1878FvftaEMi96eBwIB924uQT0QGUIGkdXARDV4meoRSswmb38d4M71Dix8ax4QZPHGsgIiIOS2PPZhJYjsDxkkECKUKPeGXinDbeuAJkIseKM6SJAaCNJIW9qH7Rgvy0KPjy8xE7OWmSgBQoRedSiEUOP/gtTyB1VjODuJJuflmfTmS9NgvlwkOQtBIAIC/SFAgvxRry2rdmW9Vpg9WcvsyYECQVJABIH4/YEgjfrj2aEpmxa/NVEIm2ttIBAkESLPMkCNWv5ACNmo9fzxdDIX1swX/06a3TeAQqzNqCAUwgfCYYL80cjYIghCPLk9t1szu6+Nmt3XgeUN2PPdDPx13QnMHV/PuxDohQPHHMgWgMZvlx2If1aClqESnDjvsEMSB8cceub3B652zYxfTRvxCSBKUIgHN9u0UK1ANTDlzwkIDPG3fIaffWKgpPiDQKQ1c80Vy1hzGYz4VZIqiEj8ViJ2HGRt2fAFO8MboxKoCKojYuQb1hYsepYog4H/l9vycH/R0ozYJTBeGAcPQgVp6s9ApsBvgMW5P/YfnaFnW/eVFaOKQC8If/TuZWDYCr8/CMBFYOkHmagsLhlVAKASYmwRRIQ8tkJBBPCPrWY8fwFoChAO0dQ34RX/aoqblBkVQRQAaWxFyKPbsZOdIYB/f2hG1zkwVp9XIPzFURHaEpEEwgXYS5aXuz+m6RmG3BYBgBPjH1tN7zxjGV2/E4g/KEjTlnG3+L7vc7Bs44Sbi9ZdcyEUAGl/iJD3B44gBgLI23TBm845zYieSRvRs0AhiBr7D2foh4Pi0j8lOhkHjhYpZVuSFBaLjECctlgxeZHhJGAggGgLXWIIoEdPjRIIoEkgmt+7SG+ChYIS27Ln2zz0f0mK05Z4/kDj4vVyWxACR1BeYgzEOaQZnad3G51pMDpPMQiaXBHeFmP1BcfzSOXYet7gJpUU8YMoa508hTW942RY7/gVMFUQry0uiDwtVcbWr0a95ws+COkTUW8fm9TbfwFMBkHSVYOkAlJbDRdEVqRCDQpi0eIYetuJpN42BjQRxFXE3xYCUQ+kqiJCDQ+Eyi8Cfx4ZrT/aLkTbSRfEbYuAoWoIf5Cs2RbuD39bemwLfwby8izMyLGYHjkOeuvPjgdCsqo//G1p0B8cJtQd8I6gR35IUggGUqGGC6K0RVJDASEQmJX+8KSvFhUQgSD+aZEUQQhZEa5G3eIi9JYjvQTAqlRDBandFgXExtc9fvvGAk2iR46gGjII9weBwKzaFgXENmN/JpV3gJsJuqxIa26JHB81Wn9KUyihiGgLPtTIc4WudrJd8Rp+eY3QtP8A3v3aTwR2mWQAAAAASUVORK5CYII=" InformativeScreenshot="a2286ad095c5f4a6b6aa905c972e22a4.png" Reference="ZnP3GeWE7kmww78Vun2Dlw/IIOKKq58i0q6fvwsbkNsHQ" Selector="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting' /&gt;" Title="Zoom Meeting" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <sads:DebugSymbol.Symbol>d2NDOlxVc2Vyc1x0aG9tYXMuc3RvY2tlclxPbmVEcml2ZSAtIFVpUGF0aFxEb2N1bWVudHNcVWlQYXRoXDM2MCBEZWdyZWUgVGVzdCBTdWl0ZSBEZW1vXFNlcXVlbmNlLnhhbWwNXQNyDgIBAV4FcBwCAQJu0RBuphECAQ1uWG6aAQIBDGQLahYCAQNlDWkaAgEEZaEBZacBAgELZTllQQIBCmUoZS4CAQlljgFllAECAQhn1AFntAICAQdntANniQQCAQZnfWe9AQIBBQ==</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="NApplicationCard_1" sap:VirtualizedContainerService.HintSize="354,20" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="416,108">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="ActivityBuilder_1" sap:VirtualizedContainerService.HintSize="1338,826" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

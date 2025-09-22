@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rCHd4lGkJkOFQkPltSrEKA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/welcome" DesignTimeRectangle="437, 564, 332, 53" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT password'" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='form-control uibank-input ng-untouched ng-pristine ng-valid' aaname='Password' /&gt;" Guid="625d7865-5d64-45c6-aabb-03443195e5ea" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="437, 534, 54, 19" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='uibank-label' check:innerText='Password' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8bf133b5c6c5a460d4d416299c139ad6.png" xmlns="">05oftyCHl_ki78-lGbTghyA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

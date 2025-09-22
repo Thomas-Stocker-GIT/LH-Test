@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WegyBFoAWkeaRYb9PNM7ZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/welcome" DesignTimeRectangle="625, 712, 144, 20" DesignTimeScaleFactor="1" FriendlyName="'Register For Account'" FullSelectorArgument="&lt;webctrl aaname='Register For Account' id='emailHelp' tag='SMALL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Register For Account' id='emailHelp' tag='SMALL' type='' class='form-text text-white' check:innerText='Register For Account' /&gt;" Guid="85ae6da7-06fc-4a4c-b9fc-d594f0e6c0a5" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0adfe22994eb6f921239f72b3f3fa2eb.png" xmlns="">03Zl00bnoH0aC5lsEC_ACpg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

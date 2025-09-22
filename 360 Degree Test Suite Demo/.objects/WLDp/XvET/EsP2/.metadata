@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Selection",
+  "Type": "Screen",
+  "Id": "EsP28pCeNUWy0mBNgOUCwg",
+  "Reference": "ZnP3GeWE7kmww78Vun2Dlw/EsP28pCeNUWy0mBNgOUCwg",
+  "ParentRef": "ZnP3GeWE7kmww78Vun2Dlw/XvETvyBqGkWxCrxcB_XUmA",
+  "Created": "2024-04-30T06:08:00.4914359Z",
+  "Updated": "2024-04-30T06:08:05.205873Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
